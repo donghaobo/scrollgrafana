@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head><title>Extension Options</title></head>
+<body>
+
+<label>
+  max seconds showing one page
+  <input type="text" id="switch_interval">
+</label>
+
+<label>
+  scroll 10px interval in ms
+  <input type="text" id="job_interval">
+</label>
+
+<label>
+  wait ms before scroll start
+  <input type="text" id="job_start_wait">
+</label>
+
+<label>
+  wait ms at scroll end
+  <input type="text" id="job_end_wait">
+</label>
+<br/>
+<button id="start">start</button>
+<button id="stop">stop</button>
+<br/>
+<div id="status"></div>
+
+<script src="options.js"></script>
+</body>
+</html>
